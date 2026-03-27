@@ -1,0 +1,12 @@
+BOT_TOKEN=replace_with_new_bot_token
+OWNER_ID=replace_with_numeric_telegram_user_id
+OWNER_CONTACT=@YourTelegramUsername
+DB_PATH=probaho_bot.sqlite3
+PORT=10000
+GEMINI_API_KEY=
+OCR_LANGS=eng+ben
+OCR_PAGE_LIMIT=35
+OCR_MIN_QUESTION_LEN=8
+OCR_DEBUG=0
+# Optional if tesseract is not in PATH:
+# TESSERACT_CMD=/usr/bin/tesseract

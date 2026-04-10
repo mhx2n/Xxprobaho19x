@@ -1,0 +1,19 @@
+Updated features added in this patch:
+- /mistral command for owner/admin:
+  - /mistral status
+  - /mistral on
+  - /mistral off
+  - /mistral set YOUR_KEY
+  - /mistral delete
+- /qans command for owner/admin:
+  - reply to image/text/poll and solve directly
+- Mistral OCR private image flow for owner/admin OCR users when /vision_on is enabled
+- OCR text extraction preview + .txt export
+- OCR text cleaned into Telegram-friendly plain text using Gemini/Perplexity fallback
+- OCR text converted into MCQ buffer items when possible
+- Stronger MCQ answer mapping using answer_letter + correct_option_text matching
+- Safer option inference to reduce wrong correct-option selection in generated quizzes
+
+Validation done here:
+- Python syntax compilation passed
+- Full runtime test was not possible in this sandbox because python-telegram-bot is not installed here
